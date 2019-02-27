@@ -1,45 +1,71 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <meta charset="utf-8" />
+    <meta charset="UTF-8">
+    <meta name="description" content="Открытый онлайн курс">
+    <meta name="keywords" content="Spring,Security,Kotlin,Java,Boot">
+    <meta name="author" content="Ivan Osipov">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Gettis.io</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
-    <script src="main.js"></script>
-    <style>
-        html {
-            background-color: rgb(65, 65, 65);
-            height: 100%;
-        }
-        body {
-            height: 100%;
-            width: 100%;
-            margin: 0%;
-            display: flex;
-            align-items: center;
-            align-self: center;
-            justify-content: center;
-        }
-        .content {
-            display: inline;
-            color: rgb(219, 219, 219);
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 2.5em;
-        }
-        a {
-            display: inline;
-            color: rgb(190, 137, 87);
-            text-decoration-line: none;
-        }
-        a:hover,a:visited {
-            color: rgb(247, 178, 113);
-        }
-    </style>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-130655986-1"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
+        function gtag(){dataLayer.push(arguments);}
+        gtag('js', new Date());
+
+        gtag('config', 'UA-130655986-1');
+    </script>
 </head>
 <body>
-    <div class="content">
-        Ge<span style="color: rgb(190, 137, 87);">tt</span>is.io is in development. Look at <a target="_blank" href="https://study.gettis.io">study.gettis.io</a>
+<header>
+    <div class="logo">
+        <a href="https://gettis.io" class="invisible_link">Ge<span class="primary">tt</span>is.io</a>
     </div>
+    <div class="course_header">
+        <div class="course_header_content">
+            Погружение в <span class="primary">Spring</span> <span class="secondary">Security</span>
+        </div>
+    </div>
+</header>
+<div class="content">
+    <span class="disabled">М0 Введение</span>
+    <div>
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/zHzstXCgwaQ" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen>
+            M0L1: Вводный урок
+        </iframe>
+    </div>
+    <div>
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/PP6cQ8VV7ts" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            M0L2: Что такое Spring Security?
+        </iframe>
+    </div>
+    <span class="disabled">М1 Основы</span>
+    <div>
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/ahbp_OGPpSQ" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>IISS
+            M1L1: Getting Started
+        </iframe>
+    </div>
+    <div>
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/lTNQA9GJWr4" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            M1L2: Аутентиикация и авторизация
+        </iframe>
+    </div>
+    <div>
+        <iframe width="100%" height="100%" src="https://www.youtube.com/embed/4jZSL-sw1t4" frameborder="0"
+                allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen>
+            M1L3: Обзор конфигурирования
+        </iframe>
+    </div>
+    <span class="disabled">...</span>
+    <span class="disabled small_text">Вопросы и фидбек: ivan.osipov@gettis.io</span>
+</div>
 </body>
 </html>
